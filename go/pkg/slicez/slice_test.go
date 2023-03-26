@@ -2,7 +2,7 @@ package slicez
 
 import "testing"
 
-func TestSliceColumn(t *testing.T) {
+func TestColumn(t *testing.T) {
 	data := []map[string]interface{}{
 		{
 			"id":   1,
@@ -18,6 +18,6 @@ func TestSliceColumn(t *testing.T) {
 		},
 	}
 
-	t.Log(SliceColumn(data, "id"))
-	t.Log(SliceColumn(data, "name"))
+	t.Log(Column(data, "id"))
+	t.Log(Column(data, "name"))
 }
