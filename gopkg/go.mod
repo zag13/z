@@ -1,4 +1,4 @@
-module github.com/zag13/z/go/pkg
+module github.com/zag13/z/gopkg
 
 go 1.19
 
